@@ -1,5 +1,5 @@
 {
-    "name": "GIT_USER_ID/GIT_REPO_ID",
+    "name": "kimisan87/chat-api",
     "version": "1.0.0",
     "description": "The SDK allows you to receive and send messages through your WhatsApp account. [Sign up now](https://app.chat-api.com/)  The Chat API is based on the WhatsApp WEB protocol and excludes the ban both when using libraries from mgp25 and the like. Despite this, your account can be banned by anti-spam system WhatsApp after several clicking the \"block\" button.",
     "keywords": [
@@ -32,9 +32,13 @@
         "friendsofphp/php-cs-fixer": "~2.12"
     },
     "autoload": {
-        "psr-4": { "chatapi\\" : "lib/" }
+        "psr-4": {
+            "chatapi\\": "lib/"
+        }
     },
     "autoload-dev": {
-        "psr-4": { "chatapi\\" : "test/" }
+        "psr-4": {
+            "chatapi\\": "test/"
+        }
     }
 }
